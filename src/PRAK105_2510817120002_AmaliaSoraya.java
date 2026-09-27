@@ -10,7 +10,7 @@ public class PRAK105_2510817120002_AmaliaSoraya {
         System.out.print("Masukkan tinggi: ");
         double height = scanner.nextDouble();
 
-        final double PI = 3.1415;
+        final double PI = 3.14;
         double volume = PI * radius * radius * height;
 
         System.out.print("Volume tabung dengan jari-jari " + radius + " cm dan tinggi " + height + " cm adalah ");
