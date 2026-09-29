@@ -8,7 +8,7 @@ public class PRAK102_2510817120002_AmaliaSoraya {
 
         int count = 0;
 
-        while (count < 11) {
+        while (count < 10) {
             if(number % 5 == 0) {
                 int x = (number / 5) - 1;
                 System.out.print(x);
@@ -16,7 +16,7 @@ public class PRAK102_2510817120002_AmaliaSoraya {
                 System.out.print(number);
             }
 
-            if(count < 10) {
+            if(count < 9) {
                 System.out.print(", ");
             }
             number++;
