@@ -1,3 +1,5 @@
+package Modul1;
+
 import java.util.Scanner;
 
 public class PRAK105_2510817120002_AmaliaSoraya {
