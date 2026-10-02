@@ -9,6 +9,24 @@ public class Main {
                 40
         );
 
+        Buah mangga = new Buah(
+                "mangga",
+                0.2,
+                3500,
+                15
+        );
+
+        Buah alpukat = new Buah(
+                "alpukat",
+                0.25,
+                10000,
+                12
+        );
+
         apel.info();
+        System.out.print("\n\n");
+        mangga.info();
+        System.out.print("\n\n");
+        alpukat.info();
     }
 }

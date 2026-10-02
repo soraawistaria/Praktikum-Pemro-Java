@@ -1,5 +1,7 @@
 package Modul2.PRAK201_2510817120002_AmaliaSoraya;
 
+import java.util.Locale;
+
 class Buah {
     private String nama;
     private double berat;
@@ -29,8 +31,11 @@ class Buah {
     }
 
     public void info() {
-        System.out.printf("" +
-                "Nama Buah: %s" + this.nama +
+        Locale.setDefault(Locale.US);
+
+        this.diskon = getDiskon();
+        System.out.printf(
+                "Nama Buah: %s\n" +
                 "Berat: %.1f\n" +
                 "Harga: %.1f\n" +
                 "Jumlah Beli: %.1f\n" +
@@ -39,20 +44,4 @@ class Buah {
                 "Harga setelah diskon: %.2f",
                 this.nama, this.berat, this.harga, this.jumlah_beli, this.total, this.diskon, (this.total - this.diskon));
     }
-
-//    public String getNama(){
-//
-//    }
-//
-//    public double getBerat() {
-//
-//    }
-//
-//    public double getHarga() {
-//
-//    }
-//
-//    public double getJumlahBeli() {
-//
-//    }
 }
