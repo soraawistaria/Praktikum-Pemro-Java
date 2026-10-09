@@ -2,7 +2,7 @@ package Modul2.PRAK202_2510817120002_AmaliaSoraya;
 
 import java.util.Locale;
 
-public class Kopi {
+public class    Kopi {
     public String namaKopi;
     public String ukuran;
     public double harga;
