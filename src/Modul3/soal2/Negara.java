@@ -66,5 +66,4 @@ public class Negara {
                     " " + listBulan.get(this.bulan) + " " + this.tahun);
         }
     }
-
 }
