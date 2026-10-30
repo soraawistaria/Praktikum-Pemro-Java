@@ -46,5 +46,6 @@ public class Main {
 
             a.displayDetailAnjing();
         }
+        sc.close();
     }
 }

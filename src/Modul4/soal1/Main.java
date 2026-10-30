@@ -15,5 +15,6 @@ public class Main {
         HewanPeliharaan h = new HewanPeliharaan(ras, nama);
 
         h.display();
+        sc.close();
     }
 }
